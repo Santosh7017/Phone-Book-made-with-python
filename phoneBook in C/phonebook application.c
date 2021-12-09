@@ -8,6 +8,7 @@ struct person
     char name[35];
     char address[50];
      char father_name[35];
+	
      char mother_name[30];
     long int mble_no;
     char sex[8];
@@ -41,7 +42,7 @@ void start()
 void menu()
 {
     system("cls");
-printf("\t\t**********WELCOME TO PHONEBOOK*************");
+printf("\t\t**********WELCOME TO PHONEBOOK Application*************");
 
 printf("\n\n\t\t\t  MENU\t\t\n\n");
 printf("\t1.Add New   \t2.List   \t3.Exit  \n\t4.Modify \t5.Search\t6.Delete");
