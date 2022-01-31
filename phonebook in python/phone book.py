@@ -1,7 +1,7 @@
 import time
 numbers={}
 class phonBook:
-    #make a phoneBook constuctor
+   
    def __init__(self,name,PhoneNumber,gmail):
        self.name=name
        self.PhoneNumber=PhoneNumber
